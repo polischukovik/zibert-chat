@@ -6,23 +6,20 @@ public class MenuAction {
 	private Consumer<Integer> startServer;
 	private boolean isTerminated;
 	
-	private static final MenuGraph GRAPH;
+//	private static final MenuNode GRAPH;
 	
-	static{
-		GRAPH = new MenuGraph();
-		
-	}
+	
 
 	public MenuAction(Consumer<Integer> startServer) {
 		this.startServer =  startServer;
 		this.isTerminated = false;
 	}
 
-	public void startLoop() {
-		while(!isTerminated){
-
-			showMenu()
-		}
-	}
+//	public void startLoop() {
+//		while(!isTerminated){
+//
+//			showMenu()
+//		}
+//	}
 
 }
